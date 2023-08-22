@@ -1,0 +1,111 @@
+.credits {
+	color: #fff;
+	font-size: 0.8rem;
+	position:absolute;
+	right: 10px;
+	bottom: 0;
+	overflow: hidden;
+}
+.credits > a {
+	color: #fff;
+}
+
+.content {
+	width: 400px;
+	height: 400px;
+	background-color: rgba(243,176,183,0.0);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: -200px;
+	margin-left: -200px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+h1 {
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	padding: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 110%;
+	font-family: sans-serif;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
+div#count {
+	font-size: 70px;
+	text-align: center;
+	line-height: 1;
+	color: rgb(184,156,204);
+	text-shadow: #fff 1px 1px 0px, #fff -1px 1px 0px, #fff 1px -1px 0px, #fff -1px -1px 0px;
+	margin-top: 30px;
+}
+div#wopyoo {
+	box-shadow: 0 0 2px 1px rgba(0,0,0,0.1);
+	font-size: 3rem;
+	background: #fff;
+	color: rgb(211,195,232);
+	display: inline-block;
+	line-height: 1;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 80px;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: 600;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+span#marks {
+	font-size: 1em;
+}
+body {
+	margin: 0px;
+	background-image: url('../res/3d-tropical-beach-with-palm-trees.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow:hidden;
+}
+p.links {
+	margin-top: 1em;
+}
+.prevent-select {
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+button {
+	padding: 10px;
+	box-shadow: 0 0 1px 0px #fff;
+	border-radius: 40px;
+	color: white;
+	border-color: rgba(0,0,0,0);
+	line-height: 90%;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+button#youtube {
+	background-color: rgb(253,176,183);
+}
+button#twitter {
+	background-color: rgba(217,195,241,1);
+}
+button#music {
+	background-color: #fff;
+	color: #888;
+	box-shadow: 0 0 2px 1px rgba(0,0,0,0.1);
+}
+
